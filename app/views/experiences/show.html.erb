@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Venue name:</strong>
+  <%= @experience.venue_name %>
+</p>
+
+<p>
+  <strong>Favorite:</strong>
+  <%= @experience.favorite %>
+</p>
+
+<p>
+  <strong>Rating:</strong>
+  <%= @experience.rating %>
+</p>
+
+<p>
+  <strong>Comment:</strong>
+  <%= @experience.comment %>
+</p>
+
+<%= link_to 'Edit', edit_experience_path(@experience) %> |
+<%= link_to 'Back', experiences_path %>
